@@ -1,0 +1,11 @@
+flight_id,airline,origin,destination,flight_date
+AI101,Air India,Mumbai,Delhi,01-10-2026
+AI102,Air India,Delhi,Bengaluru,01-10-2026
+6.00E+201,IndiGo,Pune,Mumbai,02-10-2026
+6.00E+202,IndiGo,Mumbai,Hyderabad,02-10-2026
+UK301,Vistara,Delhi,Mumbai,03-10-2026
+UK302,Vistara,Bengaluru,Delhi,03-10-2026
+SG401,SpiceJet,Kolkata,Delhi,04-10-2026
+SG402,SpiceJet,Delhi,Chennai,04-10-2026
+AI103,Air India,Hyderabad,Pune,05-10-2026
+6.00E+203,IndiGo,Chennai,Bengaluru,05-10-2026
