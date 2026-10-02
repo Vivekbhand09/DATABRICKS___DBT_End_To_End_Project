@@ -281,6 +281,10 @@ Parameters ──► For Each ──► BronzeLayer(source="airports")
 
 The For Each **concurrency** setting controls whether sources run one by one or in parallel.
 
+![Alt text](Utils/part1.png)
+
+![Alt text](Utils/part12.png)
+
 ## Step 8: Scheduling note
 
 `trigger(once=True)` / `availableNow=True` plus a **scheduled job** (e.g. every 10 minutes) is cost-efficient: each run processes new files and exits, so the cluster can shut down between runs. `processingTime` keeps the stream alive 24/7, which is better avoided inside a For Each loop.
@@ -403,6 +407,9 @@ def silver_business():
 ```
 
 Joins bookings → flights → passengers → airports so each booking carries its flight, passenger and airport details. `modifiedDate` is dropped to avoid duplicate column names.
+
+![Alt text](Utils/part2.png)
+
 
 ## What DLT does for me
 
@@ -612,6 +619,8 @@ SELECT * FROM workspace.<dbt_schema>.my_first_dbt_model;
 ```
 
 ---
+
+![Alt text](Utils/part4.png)
 
 ## 🔁 End-to-End Run Order
 
